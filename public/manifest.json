@@ -3,11 +3,12 @@
   "description": "A Chrome extension for dark mode on specific websites. Inspired by the brightness of email calendars.",
   "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": [
-     "activeTab",
-     "scripting"
-  ],
-  "background": {
-     "service_worker": "background.js"
-  }
+	"action": {},
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
+	}
 }
