@@ -4,31 +4,25 @@
   "description": "A Chrome extension for dark mode on specific websites. Inspired by the brightness of email calendars.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "build": "webpack --config webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mashkn/chrome-ext-darkmode.git"
   },
-  "keywords": [
-    "chrome-extension",
-    "dark",
-    "mode",
-    "website-dark-mode"
-  ],
-  "author": "mariya.novokhatska@gmail.com",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mashkn/chrome-ext-darkmode/issues"
   },
   "homepage": "https://github.com/mashkn/chrome-ext-darkmode#readme",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "web-vitals": "^3.3.1"
-  },
   "devDependencies": {
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4"
+    "@types/chrome": "^0.0.236",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
   }
 }
