@@ -19,10 +19,16 @@
   "homepage": "https://github.com/mashkn/chrome-ext-darkmode#readme",
   "devDependencies": {
     "@types/chrome": "^0.0.236",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
     "copy-webpack-plugin": "^11.0.0",
     "ts-loader": "^9.4.2",
     "typescript": "^5.0.4",
     "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
