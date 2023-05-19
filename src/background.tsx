@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <p>Hello extension</p>
+    <p>Hello extension!</p>
   </React.StrictMode>
 );

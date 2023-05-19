@@ -9,7 +9,7 @@
 	],
   "action": {
     "default_title": "Dark Mode",
-    "default_popup": "background.js"
+    "default_popup": "background.tsx"
   },
 	"background": {
 		"service_worker": "background.js"
