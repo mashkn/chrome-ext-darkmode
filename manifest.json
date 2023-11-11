@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Dark-Mode",
+  "description": "A Chrome extension for dark mode on specific websites. Inspired by the brightness of email calendars.",
+  "action": {
+      "default_popup": "js/index.html",
+      "default_title": "Dark-Mode"
+  }
+}
