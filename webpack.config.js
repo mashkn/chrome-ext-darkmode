@@ -59,13 +59,13 @@ module.exports = {
     },
 };
 
-// function getHtmlPlugins(chunks) {
-//     return chunks.map(
-//         (chunk) =>
-//             new HTMLPlugin({
-//                 title: "Dark-Mode",
-//                 filename: `${chunk}.html`,
-//                 chunks: [chunk],
-//             })
-//     );
-// }
+function getHtmlPlugins(chunks) {
+    return chunks.map(
+        (chunk) =>
+            new HTMLPlugin({
+                title: "Dark-Mode",
+                filename: `${chunk}.html`,
+                chunks: [chunk],
+            })
+    );
+}
