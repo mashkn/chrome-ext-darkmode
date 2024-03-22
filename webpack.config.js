@@ -45,6 +45,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: "manifest.json", to: "../manifest.json" },
+                { from: 'public', to: '../public' },
             ],
         }),
         ...getHtmlPlugins(["index"]),
@@ -58,13 +59,13 @@ module.exports = {
     },
 };
 
-function getHtmlPlugins(chunks) {
-    return chunks.map(
-        (chunk) =>
-            new HTMLPlugin({
-                title: "Dark-Mode",
-                filename: `${chunk}.html`,
-                chunks: [chunk],
-            })
-    );
-}
+// function getHtmlPlugins(chunks) {
+//     return chunks.map(
+//         (chunk) =>
+//             new HTMLPlugin({
+//                 title: "Dark-Mode",
+//                 filename: `${chunk}.html`,
+//                 chunks: [chunk],
+//             })
+//     );
+// }
