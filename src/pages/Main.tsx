@@ -16,7 +16,7 @@ const Main = () => {
       <hr/>
       <div id="signature">
       <p >created by mashkn</p>
-      <p><a href='github.com/mashkn'>github.com/mashkn</a></p>
+      <p><a href='https://github.com/mashkn' target="_blank">github.com/mashkn</a></p>
       </div>
     </div>
     </div>
