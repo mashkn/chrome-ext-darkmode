@@ -1,28 +1,35 @@
 {
-  "name": "chrome-ext-darkmode",
-  "version": "1.0.0",
-  "description": "A Chrome extension for dark mode on specific websites. Inspired by the brightness of email calendars.",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --config webpack/webpack.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mashkn/chrome-ext-darkmode.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mashkn/chrome-ext-darkmode/issues"
-  },
-  "homepage": "https://github.com/mashkn/chrome-ext-darkmode#readme",
-  "devDependencies": {
-    "@types/chrome": "^0.0.236",
+  "name": "react-chrome-ext",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
     "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack -w --config webpack.config.js"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
     "ts-loader": "^9.4.2",
-    "typescript": "^5.0.4",
-    "webpack": "^5.82.1",
-    "webpack-cli": "^5.1.1"
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.0.1"
   }
 }
