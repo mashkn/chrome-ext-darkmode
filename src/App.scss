@@ -3,7 +3,7 @@
 
 
 body {
-  background: white;
+  background: darken($primary-beige,30%);
   margin: 0;
 }
 
@@ -25,9 +25,16 @@ body {
 
   p {
     padding: 1rem;
-    color: #000;
+    color: darken($primary-brown, 10%);
     font-family: "Libre Barcode 128";
     font-size: 3rem;
     margin: 0;
+  }
+  .FaPlay {
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+    padding: 10px 10px 15px 10px;
+    color: darken($primary-brown, 10%);
   }
 }

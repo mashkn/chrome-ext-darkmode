@@ -24,9 +24,18 @@
     margin-top: 25px;
     font-size: xx-small;
     line-height: 10%;
-    a {
-      text-decoration: none;
-      color: $primary-beige;
-    }
   }
+}
+button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+a {
+  color: $primary-beige;
+  text-decoration: none;
 }

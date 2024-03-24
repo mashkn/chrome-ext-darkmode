@@ -26,6 +26,7 @@
     "watch": "webpack -w --config webpack.config.js"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.263",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "ts-loader": "^9.4.2",
