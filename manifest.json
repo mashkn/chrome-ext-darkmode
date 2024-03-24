@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Dimmed",
+  "description": "A Chrome extension for dark mode on specific websites. Inspired by the brightness of email calendars.",
+  "action": {
+      "default_popup": "js/index.html",
+      "default_title": "Dimmed"
+  },
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "public/Small Logo 16x16.png",
+    "128": "public/Large Logo 128x128.png"
+  }
+}

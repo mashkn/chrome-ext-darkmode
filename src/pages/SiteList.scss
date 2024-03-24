@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+@import '../variables';
+
+
+.SiteList {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  row-gap: 5px;
+  overflow-y: scroll;
+  height: 150px;
+  .ListItem {
+    background: rgba($primary-beige, 0.7);
+    height: 25px;
+    text-overflow: ellipsis;
+    font-family: 'Arya';
+    font-weight: 700;
+    color: lighten($primary-brown, 5%);
+    line-height: 28%;
+    letter-spacing: 0.2em;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons{
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    left: 3%;
+    gap: 5px;
+  }
+}
