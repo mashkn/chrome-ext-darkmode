@@ -13,9 +13,9 @@ const Main = () => {
     <div>
       <Header page="home"/>
       <div className="Main">
-      <h3 >Dim this page <FaCircle /></h3>
+      <button><h3 >Dim this page <FaCircle /></h3></button>
       <hr/>
-      <p>Always dim this page</p>
+      <button><p>Always dim this page</p></button>
       <button onClick={() => navigate('/site-list')}><h3>Saved pages list <FaPlay/></h3></button>
       <hr/>
       <div id="signature">
