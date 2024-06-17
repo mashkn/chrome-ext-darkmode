@@ -9,11 +9,23 @@ const Main = () => {
 
   const navigate = useNavigate();
 
+  function testThis() {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      const tab = tabs[0];
+      if (tab && tab.id !== undefined) {
+        console.log('Sending message --->')
+        chrome.tabs.sendMessage(tab.id, {
+          action: 'removeColorControl',
+        });
+      }
+    });
+  }
+
   return (
     <div>
       <Header page="home"/>
       <div className="Main">
-      <button><h3 >Dim this page <FaCircle /></h3></button>
+      <button onClick={testThis}><h3 >Dim this page <FaCircle /></h3></button>
       <hr/>
       <button><p>Always dim this page</p></button>
       <button onClick={() => navigate('/site-list')}><h3>Saved pages list <FaPlay/></h3></button>

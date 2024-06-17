@@ -11,5 +11,13 @@
   "icons": {
     "16": "public/Small Logo 16x16.png",
     "128": "public/Large Logo 128x128.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
+
